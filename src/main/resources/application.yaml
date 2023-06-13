@@ -1,0 +1,20 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  #Hibernate settings:
+  jpa:
+    hibernate:
+      dd-auto: create-drop
+    #JPA settings
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  #Security
+application:
+  security:
+    secret_key: 703273357638792F423F4528482B4D6251655468566D597133743677397A2443
+    user:
+      name: James
+      password: 123
